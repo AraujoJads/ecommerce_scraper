@@ -1,0 +1,28 @@
+
+---
+
+### ✅ `.gitignore`
+
+```gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Data and DB
+data/*.db
+data/*.csv
+data/*.json
+
+# OS
+.DS_Store
+
+# VSCode
+.vscode/
