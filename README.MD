@@ -70,8 +70,8 @@ ecommerce_scraper/
 
 ## 📸 Screenshots
 
-![Screenshot da interface](docs/screenshot1.png)
-![Screenshot dos dados extraídos](docs/screenshot2.png)
+<img src="docs/screenshot1.png" width="600"/>
+<img src="docs/screenshot2.png" width="600"/>
 
 ## 📦 Requisitos
 
