@@ -1,6 +1,10 @@
+
+import os
 import sqlite3
 
 def init_db():
+    # Ensure the data directory exists
+    os.makedirs("data", exist_ok=True)
     conn = sqlite3.connect("data/products.db")
     cursor = conn.cursor()
     cursor.execute("""
